@@ -61,6 +61,8 @@ namespace WaterProject
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            SeedData.EnsurePopulated(app); // This is only to add in the data - Take this out after
         }
     }
 }
