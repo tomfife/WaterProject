@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IQueryable<Project>
+
+<header>
+    <h1>Give the Gift of Water</h1>
+</header>
+
+@foreach (var x in Model)
+{
+    <div>
+        <h4>Program Name: @x.Program</h4>
+        <p>Program Type: @x.Type</p>
+        <p>Impact: @x.Impact people served</p>
+    </div>
+}
