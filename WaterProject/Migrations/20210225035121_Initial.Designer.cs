@@ -10,7 +10,7 @@ using WaterProject.Models;
 namespace WaterProject.Migrations
 {
     [DbContext(typeof(CharityDbContext))]
-    [Migration("20210224230406_Initial")]
+    [Migration("20210225035121_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

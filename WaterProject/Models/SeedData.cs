@@ -49,8 +49,27 @@ namespace WaterProject.Models
                         Phase = "Community Managed",
                         CompletionDate = new DateTime(2013, 08, 01),
                         Features = "BW/HP, LL, CE, HST"
-                    }
+                    },
 
+                    new Project
+                    {
+                        Type = "Urban Water Kiosk",
+                        Program = "Urban Water Kiosks",
+                        Impact = 500,
+                        Phase = "Community Managed",
+                        CompletionDate = new DateTime(2012, 10, 01),
+                        Features = "UWK, LL, CE, "
+                    },
+
+                    new Project
+                    {
+                        Type = "Borehole Well and Hand Pump",
+                        Program = "Wells for Rwanda",
+                        Impact = 500,
+                        Phase = "Community Managed",
+                        CompletionDate = new DateTime(2012, 10, 01),
+                        Features = "BW/HP, LL, CE, HST"
+                    }
                 );
 
                 context.SaveChanges();

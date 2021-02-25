@@ -26,8 +26,15 @@ using WaterProject.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/thomas.fife/Projects/WaterProject/WaterProject/Views/_ViewImports.cshtml"
+using WaterProject.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4ecc4d2bcad30a6aee551879bc7e7094ebb4184d", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2466a95c20a627dfcb52660c824df5cc1b7dce8c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"467fe395e156b791b09a112ed1e0c410e0ae8be7", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

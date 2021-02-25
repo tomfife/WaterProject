@@ -2,13 +2,13 @@
     ViewData["Title"] = "Home Page";
 }
 
-@model IQueryable<Project>
+@model ProjectListViewModel
 
 <header>
     <h1>Give the Gift of Water</h1>
 </header>
 
-@foreach (var x in Model)
+@foreach (var x in Model.Projects)
 {
     <div>
         <h4>Program Name: @x.Program</h4>
@@ -16,3 +16,5 @@
         <p>Impact: @x.Impact people served</p>
     </div>
 }
+
+<div page-model="@Model.PagingInfo" page-action="Index"></div>
