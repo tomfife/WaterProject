@@ -1,30 +1,33 @@
 ﻿<Properties StartupConfiguration="{2DEE44F4-9F0D-4D21-A86D-620279261978}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WaterProject/Views/_ViewImports.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WaterProject/Views/Shared/NavigationMenu/Default.cshtml">
     <Files>
-      <File FileName="WaterProject/Views/Home/Index.cshtml" Line="10" Column="47" />
+      <File FileName="WaterProject/Views/Home/Index.cshtml" Line="16" Column="35" />
       <File FileName="WaterProject/Views/Shared/ProjectSummary.cshtml" Line="16" Column="29" />
       <File FileName="WaterProject/Models/ViewModels/PagingInfo.cs" Line="1" Column="1" />
       <File FileName="WaterProject/Models/ViewModels/ProjectListViewModel.cs" Line="16" Column="1" />
       <File FileName="WaterProject/Controllers/HomeController.cs" Line="33" Column="21" />
       <File FileName="WaterProject/Startup.cs" Line="72" Column="38" />
-      <File FileName="WaterProject/Infrastructure/PageLinkTagHelper.cs" Line="1" Column="1" />
+      <File FileName="WaterProject/Infrastructure/PageLinkTagHelper.cs" Line="42" Column="46" />
       <File FileName="WaterProject/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="WaterProject/Components/NavigationMenuViewComponent.cs" Line="16" Column="10" />
+      <File FileName="WaterProject/Views/Shared/_Layout.cshtml" Line="21" Column="28" />
+      <File FileName="WaterProject/Views/Shared/NavigationMenu/Default.cshtml" Line="1" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WaterProject" expanded="True">
             <Node name="WaterProject" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Infrastructure" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
-              </Node>
+              <Node name="Components" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="_ViewImports.cshtml" selected="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="NavigationMenu" expanded="True">
+                    <Node name="Default.cshtml" selected="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>

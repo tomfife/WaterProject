@@ -61,6 +61,7 @@
 /Users/thomas.fife/Projects/WaterProject/WaterProject/obj/Debug/netcoreapp3.1/WaterProject.RazorCoreGenerate.cache
 /Users/thomas.fife/Projects/WaterProject/WaterProject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
 /Users/thomas.fife/Projects/WaterProject/WaterProject/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/thomas.fife/Projects/WaterProject/WaterProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/NavigationMenu/Default.cshtml.g.cs
 /Users/thomas.fife/Projects/WaterProject/WaterProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/thomas.fife/Projects/WaterProject/WaterProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/ProjectSummary.cshtml.g.cs
 /Users/thomas.fife/Projects/WaterProject/WaterProject/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
