@@ -7,23 +7,7 @@
 
 @foreach (var x in Model.Projects)
 {
-    <div class="card card-outline-primary m-1 p-1">
-        <div class="bg-faded p-1">
-            <h4>Program Name: @x.Program</h4>
-
-            <span class="badge badge-pill badge-primary" style="float:right">
-                <p>Impact: @x.Impact people served</p>
-            </span>
-
-            <p>Program Type: @x.Type</p>
-            
-            <p>Completion Date: @x.CompletionDate</p>
-
-            <div class="card-text p-1">
-                <p>Phase: @x.Phase</p>
-            </div>
-        </div>
-    </div>
+    <partial name="ProjectSummary" model="x"/>
 }
 
 <div page-model="@Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="btn"
