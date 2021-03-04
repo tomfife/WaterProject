@@ -17,6 +17,8 @@ namespace WaterProject.Components
 
         public IViewComponentResult Invoke()    // Drop a partial view into a view
         {
+            ViewBag.SelectedCategory = RouteData?.Values["category"];   // Pulls from the url and says this is our selected category
+
             return View(repository.Projects
                 .Select(x => x.Type)
                 .Distinct()

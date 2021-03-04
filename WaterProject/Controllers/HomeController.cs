@@ -38,7 +38,8 @@ namespace WaterProject.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
-                    TotalNumItems = _repository.Projects.Count()
+                    TotalNumItems = category == null ? _repository.Projects.Count() :
+                        _repository.Projects.Where(x => x.Type == category).Count()
                 },
                 CurrentCategory = category
             });
