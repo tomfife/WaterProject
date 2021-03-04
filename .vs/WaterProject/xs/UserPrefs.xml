@@ -1,26 +1,33 @@
 ﻿<Properties StartupConfiguration="{2DEE44F4-9F0D-4D21-A86D-620279261978}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="WaterProject/appsettings.json">
     <Files>
-      <File FileName="WaterProject/Views/Shared/_Layout.cshtml" Line="12" Column="22" />
+      <File FileName="WaterProject/Views/Shared/_Layout.cshtml" Line="28" Column="1" />
+      <File FileName="WaterProject/Views/_ViewImports.cshtml" />
+      <File FileName="WaterProject/Views/_ViewStart.cshtml" />
+      <File FileName="WaterProject/.gitignore" />
       <File FileName="WaterProject/Views/Home/Index.cshtml" />
-      <File FileName="WaterProject/Models/Project.cs" />
-      <File FileName="WaterProject/appsettings.json" Line="11" Column="31" />
+      <File FileName="WaterProject/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="WaterProject/Infrastructure/PageLinkTagHelper.cs" />
       <File FileName="WaterProject/Models/CharityDbContext.cs" />
-      <File FileName="WaterProject/Startup.cs" />
+      <File FileName="WaterProject/Models/ErrorViewModel.cs" />
       <File FileName="WaterProject/Models/ICharityRepository.cs" />
+      <File FileName="WaterProject/Models/Project.cs" />
       <File FileName="WaterProject/Models/EFCharityRepository.cs" />
-      <File FileName="WaterProject/Models/SeedData.cs" />
-      <File FileName="WaterProject/Controllers/HomeController.cs" />
-      <File FileName="WaterProject/appsettings.Development.json" />
+      <File FileName="WaterProject/Models/SeedData.cs" Line="15" Column="1" />
+      <File FileName="WaterProject/Properties/launchSettings.json" />
+      <File FileName="WaterProject/Controllers/HomeController.cs" Line="54" Column="10" />
+      <File FileName="WaterProject/Models/ViewModels/PagingInfo.cs" />
+      <File FileName="WaterProject/Models/ViewModels/ProjectListViewModel.cs" />
+      <File FileName="WaterProject/Program.cs" />
+      <File FileName="WaterProject/Startup.cs" Line="41" Column="37" />
+      <File FileName="WaterProject/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="WaterProject/appsettings.json" Line="11" Column="59" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WaterProject" expanded="True">
             <Node name="WaterProject" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Migrations" expanded="True" />
               <Node name="appsettings.json" expanded="True" selected="True" />
             </Node>
           </Node>

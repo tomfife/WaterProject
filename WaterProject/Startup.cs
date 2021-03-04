@@ -29,7 +29,7 @@ namespace WaterProject
 
             services.AddDbContext<CharityDbContext>(options =>
            {
-               options.UseSqlServer(Configuration["ConnectionStrings:WaterCharityConnection"]);
+               options.UseSqlite(Configuration["ConnectionStrings:WaterCharityConnection"]);
            });
 
             services.AddScoped<ICharityRepository, EFCharityRepository>();

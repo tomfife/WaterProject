@@ -40,7 +40,6 @@ namespace WaterProject.Controllers
                     TotalNumItems = _repository.Projects.Count()
                 }
             });
-
         }
 
         public IActionResult Privacy()
