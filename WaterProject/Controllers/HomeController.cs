@@ -24,12 +24,13 @@ namespace WaterProject.Controllers
             _repository = repository;
         }
 
-        public IActionResult Index(int page = 1) // We are passing in the page, but we set a default of 1
+        public IActionResult Index(string category, int page = 1) // We are passing in the page, but we set a default of 1
         {
             return View(new ProjectListViewModel
             {
                 Projects = _repository.Projects
-                    .OrderBy(p => p.ProjectId)
+                    .Where(p => category == null || p.Type == category) // If category is null or category is = to the category passed in
+                    .OrderBy(p => p.ProjectId)                              // The select it
                     .Skip((page - 1) * PageSize)
                     .Take(PageSize)
                 ,
@@ -38,7 +39,8 @@ namespace WaterProject.Controllers
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
                     TotalNumItems = _repository.Projects.Count()
-                }
+                },
+                CurrentCategory = category
             });
         }
 
